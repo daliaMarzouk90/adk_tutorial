@@ -1,0 +1,9 @@
+[project]
+name = "food-agent"
+version = "0.1.0"
+description = "Google ADK food recommendation starter agent"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk",
+    "python-dotenv",
+]
