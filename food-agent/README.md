@@ -11,6 +11,8 @@ Google **ADK (Agent Development Kit)** is a framework for building, running, and
 food-agent/
 │
 ├── agent.py
+├── prompt.py
+├── tools.py
 ├── requirements.txt
 ├── .env.example
 ├── README.md
@@ -24,9 +26,9 @@ food-agent/
 
 ```bash
 cd food-agent
-python -m venv .venv
+uv venv .venv
 source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 ## Configure environment
@@ -38,7 +40,7 @@ cp .env.example .env
 
 ## Run the project
 
-The agent entrypoint is `agent.py` and exposes `root_agent`.
+The agent entrypoint is `agent.py` and exposes `root_agent`. Prompt text and tools are split into `prompt.py` and `tools.py`.
 
 ## Start the ADK API server
 
