@@ -42,23 +42,11 @@ cp .env.example .env
 
 The agent entrypoint is `agent.py` and exposes `root_agent`. Prompt text and tools are split into `prompt.py` and `tools.py`.
 
-## Start the ADK API server
-
-```bash
-adk api_server agent:root_agent --host 0.0.0.0 --port 8000
-```
-
-## Open Swagger docs
-
-After starting the API server, open:
-
-```text
-http://localhost:8000/docs
-```
 
 ## Open the ADK Dev UI
 
 ```bash
+cd ..
 adk web agent:root_agent --host 0.0.0.0 --port 8080
 ```
 
@@ -66,6 +54,12 @@ Then open:
 
 ```text
 http://localhost:8080
+```
+
+Check swagger:
+
+```text
+http://localhost:8000/docs
 ```
 
 ## Test the agent
