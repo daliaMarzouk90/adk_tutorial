@@ -2,9 +2,10 @@
 
 from dotenv import load_dotenv
 from google.adk.agents import Agent
+import google.auth
 
-from prompt import AGENT_INSTRUCTION
-from tools import recommend_meal
+from .prompt import AGENT_INSTRUCTION
+from .tools import recommend_meal
 
 # Load local environment variables so ADK can access GOOGLE_API_KEY at runtime.
 load_dotenv()
