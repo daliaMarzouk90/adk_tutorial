@@ -47,7 +47,7 @@ The agent entrypoint is `agent.py` and exposes `root_agent`. Prompt text and too
 
 ```bash
 cd ..
-adk web agent:root_agent --host 0.0.0.0 --port 8080
+adk web --host 0.0.0.0 --port 8080
 ```
 
 Then open:
@@ -56,11 +56,17 @@ Then open:
 http://localhost:8080
 ```
 
+<img width="1909" height="869" alt="image" src="https://github.com/user-attachments/assets/6ba7d617-a9eb-413b-8b19-4c21f6c8c0ac" />
+
+
 Check swagger:
 
 ```text
 http://localhost:8000/docs
 ```
+
+<img width="1912" height="863" alt="image" src="https://github.com/user-attachments/assets/58ec69aa-2ba6-458d-bc76-08e60c182734" />
+
 
 ## Test the agent
 
