@@ -13,7 +13,7 @@ food-agent/
 ├── agent.py
 ├── prompt.py
 ├── tools.py
-├── requirements.txt
+├── pyproject.toml
 ├── .env.example
 ├── README.md
 ├── eval/
@@ -28,7 +28,7 @@ food-agent/
 cd food-agent
 uv venv .venv
 source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
-uv pip install -r requirements.txt
+uv sync
 ```
 
 ## Configure environment
