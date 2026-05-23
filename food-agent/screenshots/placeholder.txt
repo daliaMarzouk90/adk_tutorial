@@ -1,0 +1,1 @@
+Place ADK Dev UI or Swagger screenshots in this folder.

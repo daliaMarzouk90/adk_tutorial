@@ -1,0 +1,22 @@
+[
+  {
+    "input": "Recommend an Egyptian vegan meal",
+    "expected_output": "Recommended meal: Koshari."
+  },
+  {
+    "input": "I want Egyptian cuisine with a protein-focused diet",
+    "expected_output": "Recommended meal: Hawawshi."
+  },
+  {
+    "input": "Suggest an Italian vegan dish",
+    "expected_output": "Recommended meal: Pasta al Pomodoro (without cheese)."
+  },
+  {
+    "input": "Give me an Italian protein meal",
+    "expected_output": "Recommended meal: Chicken Piccata."
+  },
+  {
+    "input": "Recommend a Japanese vegan meal",
+    "expected_output": "I couldn't find an exact match. Try one of: Egyptian/Italian with vegan/protein preferences."
+  }
+]
